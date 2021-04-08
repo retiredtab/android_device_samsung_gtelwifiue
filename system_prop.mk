@@ -1,3 +1,9 @@
+# Set build fingerprint / ID / Product Name for CTS spoofing
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRIVATE_BUILD_DESC="gtelwifiue-user 7.1.1 NMF26X T560NUUEU1CQK2 release-keys"
+
+BUILD_FINGERPRINT := "samsung/gtelwifiue/gtelwifiue:7.1.1/NMF26X/T560NUUEU1CQK2:user/release-keys"
+
 # CABL
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.qualcomm.cabl=0
